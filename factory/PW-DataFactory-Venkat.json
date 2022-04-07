@@ -1,0 +1,9 @@
+{
+	"name": "PW-DataFactory-Venkat",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "30623da0-288d-41c0-b1c2-aa717634d964",
+		"tenantId": "0941ad07-f91b-4120-89f3-5d5722eb65c8"
+	}
+}
