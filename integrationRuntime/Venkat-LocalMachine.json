@@ -1,0 +1,6 @@
+{
+	"name": "Venkat-LocalMachine",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
