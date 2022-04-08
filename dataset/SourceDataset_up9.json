@@ -1,0 +1,30 @@
+{
+	"name": "SourceDataset_up9",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OnPrem_SQL_PWAzureTrainingOnPrem",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "FirstName",
+				"type": "varchar"
+			},
+			{
+				"name": "LastName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "emp"
+		}
+	}
+}
