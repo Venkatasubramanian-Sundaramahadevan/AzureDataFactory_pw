@@ -1,0 +1,16 @@
+{
+	"name": "OnPrem_SQL_PWAzureTrainingOnPrem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=LAPTOP-S0ML8Q5B\\VENKAT;initial catalog=PWAzureTrainingOnPrem;user id=sqluser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkZTQwMzJiZC0xMjYxLTQ5NGQtOTg0Yy1hMTZlNTdkMTNkMmIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "Venkat-LocalMachine",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
