@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "PW-DataFactory-Venkat"
 		},
+		"BlobStorage_To_PWAzureTrainingMDP_connectionString": {
+			"value": ""
+		},
 		"BlobStorage_azurestoragemdpvenkat_connectionString": {
 			"value": ""
 		},

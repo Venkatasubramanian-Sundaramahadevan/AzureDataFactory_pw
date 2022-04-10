@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "PW-DataFactory-Venkat"
 		},
+		"BlobStorage_To_PWAzureTrainingMDP_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'BlobStorage_To_PWAzureTrainingMDP'"
+		},
 		"BlobStorage_azurestoragemdpvenkat_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'BlobStorage_azurestoragemdpvenkat'"
@@ -41,6 +45,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"BlobStorage_To_PWAzureTrainingMDP_connectionString": {
+						"value": "[parameters('BlobStorage_To_PWAzureTrainingMDP_connectionString')]"
 					},
 					"BlobStorage_azurestoragemdpvenkat_connectionString": {
 						"value": "[parameters('BlobStorage_azurestoragemdpvenkat_connectionString')]"
