@@ -319,6 +319,9 @@
 					"elapsedTimeMetric": {},
 					"cancelAfter": {}
 				},
+				"folder": {
+					"name": "Copy Wizards"
+				},
 				"annotations": []
 			},
 			"dependsOn": [
@@ -391,6 +394,9 @@
 				"policy": {
 					"elapsedTimeMetric": {},
 					"cancelAfter": {}
+				},
+				"folder": {
+					"name": "Copy Wizards"
 				},
 				"annotations": []
 			},
