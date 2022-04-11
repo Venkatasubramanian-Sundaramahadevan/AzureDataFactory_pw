@@ -56,6 +56,9 @@
 					"referenceName": "BlobStorage_To_PWAzureTrainingMDP",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "Copy Wizard DataSets"
+				},
 				"annotations": [],
 				"type": "AzureSqlTable",
 				"schema": [
@@ -129,6 +132,9 @@
 					"referenceName": "BlobStorage_azurestoragemdpvenkat",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "Copy Wizard DataSets"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -155,6 +161,9 @@
 				"linkedServiceName": {
 					"referenceName": "BlobStorage_azurestoragemdpvenkat",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "Copy Wizard DataSets"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -192,6 +201,9 @@
 				"linkedServiceName": {
 					"referenceName": "OnPrem_SQL_PWAzureTrainingOnPrem",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "Copy Wizard DataSets"
 				},
 				"annotations": [],
 				"type": "SqlServerTable",
