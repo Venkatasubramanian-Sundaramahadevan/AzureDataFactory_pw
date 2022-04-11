@@ -5,6 +5,9 @@
 			"referenceName": "OnPrem_SQL_PWAzureTrainingOnPrem",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "Copy Wizard DataSets"
+		},
 		"annotations": [],
 		"type": "SqlServerTable",
 		"schema": [

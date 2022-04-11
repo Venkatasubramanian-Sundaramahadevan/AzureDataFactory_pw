@@ -5,6 +5,9 @@
 			"referenceName": "BlobStorage_To_PWAzureTrainingMDP",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "Copy Wizard DataSets"
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
